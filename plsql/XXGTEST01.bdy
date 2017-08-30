@@ -5,7 +5,7 @@ CREATE OR REPLACE PACKAGE BODY XXGTEST01 AS
                   z IN VARCHAR2)
   IS
   BEGIN
-  -- test03
+  -- test04
     IF n = 1 THEN
       -- 直接从x移动到z
       dbms_output.put_line(x || '->' || z);
