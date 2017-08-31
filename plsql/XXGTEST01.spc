@@ -4,3 +4,4 @@ CREATE OR REPLACE PACKAGE XXGTEST01 AS
                   y IN VARCHAR2,
                   z IN VARCHAR2);
 END XXGTEST01;
+/
