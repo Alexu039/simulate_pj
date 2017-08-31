@@ -5,7 +5,7 @@ CREATE OR REPLACE PACKAGE BODY XXGTEST01 AS
                   z IN VARCHAR2)
   IS
   BEGIN
-  -- test06
+  -- test07
     IF n = 1 THEN
       dbms_output.put_line(x || '->' || z);
     ELSE
