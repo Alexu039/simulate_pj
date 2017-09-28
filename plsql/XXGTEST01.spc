@@ -1,5 +1,5 @@
 CREATE OR REPLACE PACKAGE XXGTEST01 AS
-  -- test01
+  -- test03
   PROCEDURE hanoi(n IN NUMBER,
                   x IN VARCHAR2,
                   y IN VARCHAR2,
